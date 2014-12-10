@@ -1,0 +1,204 @@
+.divider {
+    height:50px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+.bg-1 {
+	background: url('../img/amazon3.jpg') no-repeat center fixed;
+    color:#fff;
+    background-size:cover;
+    padding-bottom:0px;
+}
+  
+.bg-2 {
+	background: url('../img/normasite2.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('../img/TEDx.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-4 {
+	background: url('../img/banquet.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+  margin-left: 10px:
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.btn{
+margin-left:10px;
+}
+
+.title{
+font-size: 60px;
+text-align: center;
+}
+
+.tbd{
+font-size: 56px;
+text-align: center;
+}
+
+/* Involvement CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.involve {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.involve .col-lg-3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.involve h2 {
+  font-weight: normal;
+}
+.involve .col-lg-3 p {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+
+/* Carousel
+-------------------*/
+.selected img {
+	opacity:0.5;
+}
+
+.event .carousel-inner {
+    height: 500px;
+}
+
+.event .carousel-inner .item {
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.event .carousel-inner .item img {
+    width: 100%;
+    min-height: 100%;
+    max-height: none;
+}
+
+
+/* Thumbnail
+----------------------*/
+.thumbnail {
+   
+}
+
+
+/* navbar
+----------------------*/
+.navbar {
+    margin-bottom:0;
+  }
+
+
+/* Jumbo
+----------------------*/
+.jumbotron {
+      margin-bottom:0;
+    }
+
+
+/* special divider
+----------------------*/    
+.apple-divider {
+  margin: 30px 30; /* Space out the Bootstrap <hr> more */
+  width: 70%;
+  text-align: center;
+}
+
+/* award divider
+----------------------*/    
+.award-divider {
+  margin: 30px 30; /* Space out the Bootstrap <hr> more */
+  width: 50%;
+  text-align: center;
+}
